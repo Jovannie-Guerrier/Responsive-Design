@@ -1,53 +1,99 @@
-*, 
-body {
-    box-sizing: border-box;
-    margin: 15px;
-    padding: 10px;
-    background: pink;
-    text-align: center; 
-
-    }
-
-
-section {
-    text-align: center;
-    color: rgb(0, 0, 0);
+/* Add CSS styling here */
+* {
+  box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    height: 15px;
-    margin-bottom: 5px;
-    font-size: 1.5rem;
-    background: white; 
-    display: flex;
-    justify-content: center;
+
+.title {
+  font-family: fantasy;
+  font-size: 2.875em;
+}
+
+
+.container about-nav {
+  justify-content: center;
+  background-color: pink;
+}
+
+
+nav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  line-height: 1;
+  overflow: hidden; 
+}
+
+@media screen and (max-width: 500px){
+  nav {
+    margin: 10%;
+    padding: 0;
+    width: 100%;
     align-items: center;
-    color: black;
   }
+}
+
+@media screen and (max-width: 800px){
+  nav {
+    margin: 10%;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+
+button {
+  font-size: 20px; 
+}
+
+@media screen and (min-width: 500px){
+  button{
+    font-size: 50px;
+  }
+}
+
+
+.container-flex {
+  display: flex;
+  width: 100%;
+  margin: 0 auto; 
+  padding: 40px;
+ }
 
 
 
-  @media (min-width: 500px) {
-    header nav {
-     height: 25vh;
-     align-items: center;
-    }sad
-      }
-
-   
+.text{
+  width: 40%;
+  padding: 30%;
+  justify-content: center;
+  align-items: center;
   
-  @media (max-width: 800px) {
-     body {
-      
-      align-items: center;
-      text-align: right;
-     }
-        a {
-         background: rgb(255, 129, 150);
-    }
+}
 
-    }
+p {
+  font-family: monospace;
+  font-size: 1vw;
+}
+
+h1, h3 {
+  font-style: normal;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 40px;
+  /* flex-direction: row; */
+}
+
+footer {
+   text-align: center;
+}
+
+
+
 
 
 
